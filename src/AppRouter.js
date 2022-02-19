@@ -9,7 +9,7 @@ const AppRouter = () => {
   return (
     <ThemeProvider>
       <Router>
-        <Route path="/home" render={(history) => (
+        <Route path="/" render={(history) => (
           <NavBar history={history} />
         )}/>
         <Switch>
