@@ -8,7 +8,7 @@ import NavBar from "components/NavBar/NavBar";
 const AppRouter = () => {
   return (
     <ThemeProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Route path="/" render={(history) => (
           <NavBar history={history} />
         )}/>
