@@ -4,11 +4,12 @@ import  Home  from "pages/Home/Home";
 import Favorites from "pages/Favorites/Favorites";
 import { ThemeProvider } from "theme";
 import NavBar from "components/NavBar/NavBar";
+const { PUBLIC_URL } = process.env;
 
 const AppRouter = () => {
   return (
     <ThemeProvider>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename={PUBLIC_URL}>
         <Route path="/" render={(history) => (
           <NavBar history={history} />
         )}/>
