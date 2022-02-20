@@ -1,7 +1,7 @@
 {
   "name": "ppl-finder",
   "version": "1.0.7",
-  "homepage": "https://github.com/amityosefi/PplFinder",
+  "homepage": "https://amityosefi.github.io/PplFinder",
   "bin": "./bin/cli.js",
   "license": "MIT",
   "repository": "https://github.com/amityosefi/PplFinder",
